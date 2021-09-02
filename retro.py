@@ -14,20 +14,3 @@ def mery(no, ipo):
             break
         j = j-1
     return fir
-
-def tim(no, ipo):
-    for i in range(10):
-        if i < ipo < no:
-            print ("What a i: ")
-    return i
-
-no = int(input("Please enter the number: "))
-ipo = po = hayl(no)
-firs = 0
-for i in range(po+1):
-    fira = mery(no, ipo)
-    no = no-(fira*pow(10, ipo))
-    firs = firs + fira*pow(10, (po-ipo))
-    ipo = ipo - 1
-print("The number is: ", firs)
-timm = tim(10, 5)
