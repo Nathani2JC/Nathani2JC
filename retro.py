@@ -4,6 +4,7 @@ def hayl(no):
             ipo = i-1
             break
     return ipo
+
 def mery(no, ipo):
     j = 9
     for i in range(9):
@@ -13,6 +14,7 @@ def mery(no, ipo):
             break
         j = j-1
     return fir
+
 no = int(input("Please enter the number: "))
 ipo = po = hayl(no)
 firs = 0
@@ -22,3 +24,10 @@ for i in range(po+1):
     firs = firs + fira*pow(10, (po-ipo))
     ipo = ipo - 1
 print("The number is: ", firs)
+timm = tim(10, 5)
+
+def tim(no, ipo):
+    for i in range(10):
+        if no < i < ipo:
+            print ("What a i: ")
+    return i
